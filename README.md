@@ -1,13 +1,15 @@
 # safeChicago
+
 Make Chicago Safe Again!
-Project - Safe Chicago
+
+Project - Safe Chicago;
 With Safe Chicago project we will make Chicago a better and safer place to live, a place we all love, admire and appreciate using Data Mining Techniques.
 
-General info
+General info:
 In Chicago these days, the moment we start television news there is at least one news involving gun violence and innocent people are either injured or killed. With help of analytics we will provide trend analysis using Association Rules technique of data mining which will provide correlation of one feature / attribute with another.
 Another component of our solution to reduce gun violence is to notify the user if they are tagged as potential victim with their given age, gender, time & geo-location. We will achieve this using binary classification methods like decision tree and SVM (Support Vector Machines).
 
-Technologies
+Technologies:
 Python 2.7.17 :: Anaconda, Inc.
     List of packages to be installed - 
     - pandas version 0.24.2 [Default with Anaconda Distribution]
