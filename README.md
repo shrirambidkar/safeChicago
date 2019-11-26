@@ -19,7 +19,7 @@ Python 2.7.17 :: Anaconda, Inc.
     - scikit-learn version 0.20.3 [Default with Anaconda Distribution]
     - apyori version 1.1.1
 
-Setup
+Setup:
 Navigate to folder where The entire package comes in zip file called "CS235ProjectCode.zip". Upon download please move this file to desired folder and unzip the file. Contains of the file are as below -
     1. 01a_TrendAnalysis_V1.py ----- [provides analytics like recent trends on gun violence in Chicago]
     2. 01b_AssociationRule-Apriori_V1.py ----- [provides implementation of Apriori algorithm]
@@ -29,7 +29,7 @@ Navigate to folder where The entire package comes in zip file called "CS235Proje
     6. README.txt ----- [README file - Read this file first!]
 Validate if necessary tools and dependent packages are installed which are mentioned in the Technology section. Once environment is setup we can move to execution section which is described in below section.
 
-Execution
+Execution:
 Navigate to folder where file "CS235ProjectCode.zip" is unzipped. Invoke "demo.py" using python with command (illustrated below) on the terminal/cmd. This will initiate the system and will provide breif on the objective and what to expect from this system. Next system will prompt the user to hit enter to start the program. The system will share the present working directory and let the user confirm if the present working directory is same as where all the project files are located including dataset. With confirmation from user that everything is set, system will prompt user to run 3 programs namely [1] for Analytics; [2] for Apriori Algorithm; [3] for Potential Victim. On this prompt user can enter either 1 or 2 or 3. With every selection the system will run of the choice of user selection. During execution if there are graphs (if applicable) pop up window will open and after review user is expected to close the window for program to complete. Upon completing one program, user will be prompted to run other programs and if user choose to run another program, he/she need to enter Y. Please note the system allows 3 attempts (successful / unsuccessful) to run the program. Upon 3 attempts system will terminate and return to terminal/cmd.
 Below is the example of system with various prompts user is expected -    
 
@@ -49,16 +49,16 @@ Below is the example of system with various prompts user is expected -
     >
 
 
-Features
+Features:
 This project will provide below features -
     1. Provide some analytics on the recent trends on gun violence in Chicago.
     2. It will provide insight on association of one feature on another using Apriori algorithm.
     3. Build model using Decision Tree & SVM to determine potential victim given their age, gender and location.
 
-Status
+Status:
 Project is: Finished
 
-References 
+References: 
 1. https://pandas.pydata.org/
 2. http://numpy.scipy.org/
 3. https://matplotlib.org/
